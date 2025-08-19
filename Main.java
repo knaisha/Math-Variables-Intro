@@ -8,7 +8,7 @@ class Main {
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
 
 
-
+    System.out.println("test" + 200);
 
 
 
@@ -33,10 +33,13 @@ class Main {
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
 
+    int score = 10;
+    boolean win = true;
+    double average = 9.2;
+    
 
 
-
-
+    int num = 1;
     //MATH TIME!
 
     //What are the math operators that we can use?
@@ -48,6 +51,10 @@ class Main {
 
     //Odd integers from 1 to 100, inclusive of both
 
+    for(int count = 1;count< 100 ;count++)
+      if (count % 2 != 0) {
+        System.out.println(count);
+      }
 
 
     //All multiples of 3 from 1 to 100
