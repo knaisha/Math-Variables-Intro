@@ -58,10 +58,15 @@ class Main {
 
 
     //All multiples of 3 from 1 to 100
-
+    for(int three = 1;three< 100 ;three++)
+      if (three % 3 == 0) {
+        System.out.println(three);
+      }
 
 
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
+    for(int zero = 1000;zero>= 0 ;zero-=10)
+      System.out.print(zero+"-");
+      }
   }
-}
